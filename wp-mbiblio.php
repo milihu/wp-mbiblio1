@@ -8,6 +8,30 @@ Author: Samir Husaj
 Author URI: http://URI_Of_The_Plugin_Author
 License: A "Slug" license name e.g. GPL2
 */
+
+/**
+
+include(dirname(__FILE__)."/wp_mbiblio-functions.php");
+
+define( 'MBIBLIO_PLUGIN_FILE', __FILE__ );
+
+register_activation_hook( MBIBLIO_PLUGIN_FILE, 'mm_activation' );
+
+function mm_activation(){
+	// mach etwas
+
+}
+
+*/
+
+
+
+
+
+
+
+
+
 ?>
 
 
